@@ -1,0 +1,100 @@
+h1 {
+display: none;
+}
+
+h2 {
+display: none;
+}
+
+#secciones {
+float: left;
+margin-top: 165px;
+}
+
+#secciones ul li a {
+width: 23px;
+height: 75px;
+display: block;
+margin-bottom: 2px;
+}
+
+#medio {
+margin-top: 50px;
+margin-left: 63px;
+/*arriba derecha abajo izquierda*/
+padding: 20px 225px 20px 20px;
+width: 625px;
+}
+
+
+#noticias {
+/*arriba derecha abajo izquierda*/
+padding: 10px 20px 10px 20px;
+}
+
+#noticias .noticia {
+padding-bottom: 28px;
+}
+
+#noticias .comentarios, #noticias .leermas {
+float: right;
+}
+
+#noticias .leermas {
+margin-left: 10px;
+}
+
+#loginInfo {
+position: absolute;
+top: 190px;
+left: 730px;
+width: 190px;
+}
+
+#loginInfo input {
+margin-bottom: 5px;
+}
+
+#loginInfo a {
+margin-bottom: 15px;
+}
+
+#loginInfo input[type=text], #loginInfo input[type=password], #loginInfo input[type=submit], #loginInfo span, #loginInfo a {
+float: left;
+clear:both;
+margin-left: 20px;
+}
+
+#loginInfo p .recordar, #loginInfo input[type=checkbox] {
+display: none;
+}
+
+#loginInfo input[type=submit] {
+margin-top: 10px;
+}
+
+#colaboran {
+display: none;
+}
+
+#creditos {
+margin-left: 63px;
+background-image: url('images/finCuerpo.png');
+background-repeat: no-repeat;
+width: 869px;
+height: 100px;
+margin-top: -10px;
+padding-top: 30px;
+padding-left: 220px;
+}
+
+#extraDiv1 {
+background-image: url('images/cabeceraCuerpo.png');
+background-repeat: no-repeat;
+width: 634px;
+height: 168px;
+display: block;
+position: absolute;
+top: 50px;
+left: 87px;
+}

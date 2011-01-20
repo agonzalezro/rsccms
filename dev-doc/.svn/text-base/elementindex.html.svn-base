@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a name="top"></a>
+<h2>Full index</h2>
+<h3>Package indexes</h3>
+<ul>
+	<li><a href="elementindex_rianxosencabos.html">rianxosencabos</a></li>
+</ul>
+<br />
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex.html#a">a</a>
+	<a class="index-letter" href="elementindex.html#b">b</a>
+	<a class="index-letter" href="elementindex.html#c">c</a>
+	<a class="index-letter" href="elementindex.html#d">d</a>
+	<a class="index-letter" href="elementindex.html#e">e</a>
+	<a class="index-letter" href="elementindex.html#f">f</a>
+	<a class="index-letter" href="elementindex.html#g">g</a>
+	<a class="index-letter" href="elementindex.html#i">i</a>
+	<a class="index-letter" href="elementindex.html#l">l</a>
+	<a class="index-letter" href="elementindex.html#m">m</a>
+	<a class="index-letter" href="elementindex.html#n">n</a>
+	<a class="index-letter" href="elementindex.html#p">p</a>
+	<a class="index-letter" href="elementindex.html#r">r</a>
+	<a class="index-letter" href="elementindex.html#s">s</a>
+	<a class="index-letter" href="elementindex.html#t">t</a>
+	<a class="index-letter" href="elementindex.html#u">u</a>
+	<a class="index-letter" href="elementindex.html#v">v</a>
+	<a class="index-letter" href="elementindex.html#_">_</a>
+</div>
+
+	<a name="a"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">a</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						admin
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html">admin</a> in admin.php</div>
+							<div class="index-item-description">Con esta clase accederé a todas la opciones de administración:</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">admin.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_admin.php.html">admin.php</a> in admin.php</div>
+					</dd>
+		</dl>
+	<a name="b"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">b</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">bajar</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodbajar">admin::bajar()</a> in admin.php</div>
+							<div class="index-item-description">Baja una noticia de la portada</div>
+					</dd>
+			<dt class="field">
+						basededatos
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html">basededatos</a> in libreria.php</div>
+							<div class="index-item-description">En esta clase incluiré todas las funciones necesarias para trabajar contra la base de datos:</div>
+					</dd>
+			<dt class="field">
+						blogs
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/blogs.html">blogs</a> in blogs.php</div>
+							<div class="index-item-description">Con esta clase:</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">blogs.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_blogs.php.html">blogs.php</a> in blogs.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrar</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodborrar">admin::borrar()</a> in admin.php</div>
+							<div class="index-item-description">Borra una noticia</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrarLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodborrarLink">admin::borrarLink()</a> in admin.php</div>
+							<div class="index-item-description">Borrar un link</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrarLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodborrarLink">basededatos::borrarLink()</a> in libreria.php</div>
+							<div class="index-item-description">Borrar un link</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrarUsuario</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodborrarUsuario">admin::borrarUsuario()</a> in admin.php</div>
+							<div class="index-item-description">Borrar un usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrarUsuario</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodborrarUsuario">basededatos::borrarUsuario()</a> in libreria.php</div>
+							<div class="index-item-description">Borrar un usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">borrar_noticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodborrar_noticia">basededatos::borrar_noticia()</a> in libreria.php</div>
+							<div class="index-item-description">Borrar una noticia pasada por ID</div>
+					</dd>
+		</dl>
+	<a name="c"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">c</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">cambiaLevel</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodcambiaLevel">admin::cambiaLevel()</a> in admin.php</div>
+							<div class="index-item-description">Cambia el nivel del usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">cambiaLevel</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodcambiaLevel">basededatos::cambiaLevel()</a> in libreria.php</div>
+							<div class="index-item-description">Cambia el nivel del usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">cambiaLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodcambiaLink">basededatos::cambiaLink()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función cambiamos los valores de un link</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">cambiaLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodcambiaLink">admin::cambiaLink()</a> in admin.php</div>
+							<div class="index-item-description">Cambiar algún valor de los links</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">cambiaPass</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodcambiaPass">basededatos::cambiaPass()</a> in libreria.php</div>
+							<div class="index-item-description">Función encargada de cambiar la contraseña del usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">cambia_pass</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodcambia_pass">admin::cambia_pass()</a> in admin.php</div>
+							<div class="index-item-description">Cambia la contraseña.</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">consulta</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodconsulta">basededatos::consulta()</a> in libreria.php</div>
+							<div class="index-item-description">Esto devolvería un array con los resultados para procesar con DB::fetchInto</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">crear</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/usuarios.html#methodcrear">usuarios::crear()</a> in usuarios.php</div>
+							<div class="index-item-description">Crear usuarios con una consulta preparada, devuelve: <ul><li>-1 si el usuario existe</li><li>otro número si no hubo problema</li></ul></div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">crear_hilo</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodcrear_hilo">basededatos::crear_hilo()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función creamos un nuevo hilo en el foro</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">crear_usuario</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodcrear_usuario">basededatos::crear_usuario()</a> in libreria.php</div>
+							<div class="index-item-description">Crear usuarios con una consulta preparada, devuelve:</div>
+					</dd>
+		</dl>
+	<a name="d"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">d</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">desportadaNoticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methoddesportadaNoticia">basededatos::desportadaNoticia()</a> in libreria.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">directorios</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/galeria.html#methoddirectorios">galeria::directorios()</a> in galeria.php</div>
+							<div class="index-item-description">Muestra todos los directorio con imágenes de ./galeria/</div>
+					</dd>
+		</dl>
+	<a name="e"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">e</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">editar</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodeditar">admin::editar()</a> in admin.php</div>
+							<div class="index-item-description">Muestra el formulario para editar la noticia</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">editarLinks</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodeditarLinks">admin::editarLinks()</a> in admin.php</div>
+							<div class="index-item-description">Editar los links</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">editarNoticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodeditarNoticia">basededatos::editarNoticia()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función editamos una noticia</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">editar_noticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodeditar_noticia">admin::editar_noticia()</a> in admin.php</div>
+							<div class="index-item-description">Edita una noticia</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">enviar</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodenviar">admin::enviar()</a> in admin.php</div>
+							<div class="index-item-description">Muestra el formulario para enviar la noticia</div>
+					</dd>
+		</dl>
+	<a name="f"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">f</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						foro
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/foro.html">foro</a> in foro.php</div>
+							<div class="index-item-description">Con esta clase accederé a todas las funciones posibles que se harán con los foros: hilos, respuestas:</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">foro.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_foro.php.html">foro.php</a> in foro.php</div>
+					</dd>
+		</dl>
+	<a name="g"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">g</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						galeria
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/galeria.html">galeria</a> in galeria.php</div>
+							<div class="index-item-description">Un clase simple que unicamente muestra: <ul><li>imágenes del directorio</li><li>todos los directorios</li></ul></div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">galeria.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_galeria.php.html">galeria.php</a> in galeria.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getId</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodgetId">basededatos::getId()</a> in libreria.php</div>
+							<div class="index-item-description">Esta función solo se encarga de devolver el ID del usuario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">GetInstance</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodGetInstance">basededatos::GetInstance()</a> in libreria.php</div>
+							<div class="index-item-description">Para crear la clase debemos llamar a esta función para que no la duplique nunca</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getPass</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodgetPass">basededatos::getPass()</a> in libreria.php</div>
+							<div class="index-item-description">Esta función solo se encarga de devolver la contraseña del usuario</div>
+					</dd>
+		</dl>
+	<a name="i"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">i</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">incrementar_clicks</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodincrementar_clicks">basededatos::incrementar_clicks()</a> in libreria.php</div>
+							<div class="index-item-description">Incrementa clicks del link o blog con id = al que se le pasa al array de entrada</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">insertar_comentario</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodinsertar_comentario">basededatos::insertar_comentario()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función insertamos un comentario en una NOTICIA con una consulta preparada</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">insertar_noticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodinsertar_noticia">basededatos::insertar_noticia()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función crearemos una nueva noticia</div>
+					</dd>
+		</dl>
+	<a name="l"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">l</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">libreria.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_libreria.php.html">libreria.php</a> in libreria.php</div>
+					</dd>
+			<dt class="field">
+						links
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/links.html">links</a> in links.php</div>
+							<div class="index-item-description">Con esta clase accederé a todas las funciones posibles que se harán con los links:</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">links.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_links.php.html">links.php</a> in links.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">lista</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodlista">admin::lista()</a> in admin.php</div>
+							<div class="index-item-description">Muestra la lista de todos los usuarios con sus respectivos niveles</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">login</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/usuarios.html#methodlogin">usuarios::login()</a> in usuarios.php</div>
+							<div class="index-item-description">Comprobamos si el usuario existe, la pass es correcta y si quieren guardar una cookie para recordarlo, devuelve:</div>
+					</dd>
+		</dl>
+	<a name="m"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">m</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">miniatura</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/galeria.html#methodminiatura">galeria::miniatura()</a> in galeria.php</div>
+							<div class="index-item-description">Crea miniaturas si no existen</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">mostrar</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/usuarios.html#methodmostrar">usuarios::mostrar()</a> in usuarios.php</div>
+							<div class="index-item-description">Con esta función hacemos que template Power muestre los menús según el nivel de acceso</div>
+					</dd>
+		</dl>
+	<a name="n"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">n</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">newLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodnewLink">admin::newLink()</a> in admin.php</div>
+							<div class="index-item-description">Nuevo link</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">newLink</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodnewLink">basededatos::newLink()</a> in libreria.php</div>
+							<div class="index-item-description">Nuevo link</div>
+					</dd>
+			<dt class="field">
+						noticias
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/noticias.html">noticias</a> in noticias.php</div>
+							<div class="index-item-description">Con esta clase accederé a todas las funciones posibles que se harán con las noticias:</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">noticias.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_noticias.php.html">noticias.php</a> in noticias.php</div>
+					</dd>
+		</dl>
+	<a name="p"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">p</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">portadaNoticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodportadaNoticia">basededatos::portadaNoticia()</a> in libreria.php</div>
+							<div class="index-item-description">Subir a la portada una noticia. Para ello modificamos su atributo portada a 1 y le cambiamos su fecha_subida a la fecha_actual para que aparezca bien ordenada en la portada.</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">postear</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/noticias.html#methodpostear">noticias::postear()</a> in noticias.php</div>
+							<div class="index-item-description">Con esta función llamamos a la clase basededatos para que añada un comentario</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">postear_hilo</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/foro.html#methodpostear_hilo">foro::postear_hilo()</a> in foro.php</div>
+							<div class="index-item-description">Esta función crea nuevos hilos en el foro</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">postear_respuesta</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/foro.html#methodpostear_respuesta">foro::postear_respuesta()</a> in foro.php</div>
+							<div class="index-item-description">Esta función se encarga de añadir un comentario, para ello utiliza la clase basededatos (aquí se supone que se harían las comprobaciones previas sobre la validez de los datos).</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">post_noticia</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodpost_noticia">admin::post_noticia()</a> in admin.php</div>
+							<div class="index-item-description">Envia una noticia como administrador</div>
+					</dd>
+		</dl>
+	<a name="r"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">r</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">responder_hilo</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#methodresponder_hilo">basededatos::responder_hilo()</a> in libreria.php</div>
+							<div class="index-item-description">Con esta función insertamos una respuesta en un hilo del foro con una consulta preparada</div>
+					</dd>
+		</dl>
+	<a name="s"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">s</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">salir</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/usuarios.html#methodsalir">usuarios::salir()</a> in usuarios.php</div>
+							<div class="index-item-description">Unseteamos las variables de sesión, cookies y salimos del sistema</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">see_preferences</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodsee_preferences">admin::see_preferences()</a> in admin.php</div>
+							<div class="index-item-description">Muestra las preferencias del usuario, en principio cambiar contraseña.</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">soloUno</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/blogs.html#methodsoloUno">blogs::soloUno()</a> in blogs.php</div>
+							<div class="index-item-description">Con esta función mostramos el blog del usuario enviado por parámetro</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">subir</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/admin.html#methodsubir">admin::subir()</a> in admin.php</div>
+							<div class="index-item-description">Sube una noticia a portada</div>
+					</dd>
+		</dl>
+	<a name="t"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">t</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">todas</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/noticias.html#methodtodas">noticias::todas()</a> in noticias.php</div>
+							<div class="index-item-description">Esta función pasa al Template Power todas las noticias existentes ordenadas de forma descendente</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">todos</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/links.html#methodtodos">links::todos()</a> in links.php</div>
+							<div class="index-item-description">Esta función pasa al Template Power todas los links existentes</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">todos</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/foro.html#methodtodos">foro::todos()</a> in foro.php</div>
+							<div class="index-item-description">Esta función pasa a Template Power todas los hilos creadeos ordenador de forma descendente</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">todos</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/blogs.html#methodtodos">blogs::todos()</a> in blogs.php</div>
+							<div class="index-item-description">Esta función pasa al Template Power todas los blogs existentes</div>
+					</dd>
+		</dl>
+	<a name="u"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">u</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">una</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/foro.html#methoduna">foro::una()</a> in foro.php</div>
+							<div class="index-item-description">Si recibe un ID muestra el hilo y sus comentarios</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">una</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/noticias.html#methoduna">noticias::una()</a> in noticias.php</div>
+							<div class="index-item-description">Si recibe un ID muestra solo esa noticia y sus comentarios</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">unosolo</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/galeria.html#methodunosolo">galeria::unosolo()</a> in galeria.php</div>
+							<div class="index-item-description">Muestra la galería para un solo directorio</div>
+					</dd>
+			<dt class="field">
+						usuarios
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/usuarios.html">usuarios</a> in usuarios.php</div>
+							<div class="index-item-description">En esta clase se encuentran todas las funciones para gestión de usuarios</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">usuarios.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/_usuarios.php.html">usuarios.php</a> in usuarios.php</div>
+					</dd>
+		</dl>
+	<a name="v"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">v</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">visita</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/links.html#methodvisita">links::visita()</a> in links.php</div>
+							<div class="index-item-description">Esta función agrega un click al link si es la primera vez en la sesión</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">visita</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/blogs.html#methodvisita">blogs::visita()</a> in blogs.php</div>
+							<div class="index-item-description">Esta función agrega un click al link si es la primera vez en la sesión</div>
+					</dd>
+		</dl>
+	<a name="_"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">_</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">__destruct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="rianxosencabos/basededatos.html#method__destruct">basededatos::__destruct()</a> in libreria.php</div>
+							<div class="index-item-description">Al destruir el objecto cerramos la conexión</div>
+					</dd>
+		</dl>
+
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex.html#a">a</a>
+	<a class="index-letter" href="elementindex.html#b">b</a>
+	<a class="index-letter" href="elementindex.html#c">c</a>
+	<a class="index-letter" href="elementindex.html#d">d</a>
+	<a class="index-letter" href="elementindex.html#e">e</a>
+	<a class="index-letter" href="elementindex.html#f">f</a>
+	<a class="index-letter" href="elementindex.html#g">g</a>
+	<a class="index-letter" href="elementindex.html#i">i</a>
+	<a class="index-letter" href="elementindex.html#l">l</a>
+	<a class="index-letter" href="elementindex.html#m">m</a>
+	<a class="index-letter" href="elementindex.html#n">n</a>
+	<a class="index-letter" href="elementindex.html#p">p</a>
+	<a class="index-letter" href="elementindex.html#r">r</a>
+	<a class="index-letter" href="elementindex.html#s">s</a>
+	<a class="index-letter" href="elementindex.html#t">t</a>
+	<a class="index-letter" href="elementindex.html#u">u</a>
+	<a class="index-letter" href="elementindex.html#v">v</a>
+	<a class="index-letter" href="elementindex.html#_">_</a>
+</div>	</body>
+</html>

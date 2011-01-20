@@ -1,0 +1,125 @@
+body {
+font-family: sans-serif;
+font-size: 13px;
+background-image: url('images/fondo.png');
+background-repeat: repeat-x;
+background-color: white;
+}
+
+h1 {
+background-image: url('images/logo.png');
+background-repeat: no-repeat;
+}
+
+h2 {
+color: grey;
+}
+
+a {
+color: grey;
+}
+
+h3 {
+color: grey;
+}
+
+/*#cuerpo {
+background-image: url('images/fondoCuerpo.png');
+background-position: right;
+background-repeat: repeat-y;
+}*/
+
+h3.subir { background-image: url('images/subir.png'); background-repeat: no-repeat; }
+h3.bajar { background-image: url('images/bajar.png'); background-repeat: no-repeat; }
+h3.editar { background-image: url('images/editar.png'); background-repeat: no-repeat; }
+h3.borrar { background-image: url('images/borrar.png'); background-repeat: no-repeat; }
+
+h3.primera { font-weight: bold; font-size: 20px;}
+
+
+h3.segunda, h3.tercera {
+font-size: 12px;
+}
+
+#secciones ul, #loginInfo ul, #colaboran ul {
+list-style-type: none;
+}
+
+#secciones li a, #loginInfo li a, #colaboran li a{
+border-left: 10px solid #b02b2c;
+}
+
+#secciones li a:hover, #loginInfo li a:hover, #colaboran li a:hover {
+background-color: #b02b2c;
+border-left: 10px solid grey;
+}
+
+p {
+text-indent: 20px;
+text-align: justify;
+}
+
+#medio {
+background-color: white;
+}
+
+#medio form span {
+font-style: italic;
+}
+
+/*-------------------------------------------------------------------------------*/
+#blogs ul {
+list-style-type: none;
+}
+
+/* Para hacer la nube de tags este valor cambia: numMin,num1,num2,num3...num9,numMax -> son valores relativos dependiendo de las noticias de todos los blogs */
+#blogs a.numMin { font-size: 12px; }
+#blogs a.num1 { font-size: 14px; }
+#blogs a.num2 { font-size: 16px; }
+#blogs a.num3 { font-size: 18px; }
+#blogs a.num4 { font-size: 20px; }
+#blogs a.num5 { font-size: 22px; }
+#blogs a.num6 { font-size: 24px; }
+#blogs a.num7 { font-size: 26px; }
+#blogs a.num8 { font-size: 28px; }
+#blogs a.num9 { font-size: 30px; }
+#blogs a.numMax { font-size: 30px; font-weight: bold;}
+
+/* -------------------------------------------------------------------- */
+#links ul {
+list-style-type: circle;
+}
+
+#links a.numMin { font-size: 12px; }
+#links a.num1 { font-size: 14px; }
+#links a.num2 { font-size: 16px; }
+#links a.num3 { font-size: 18px; }
+#links a.num4 { font-size: 20px; }
+#links a.num5 { font-size: 22px; }
+#links a.num6 { font-size: 24px; }
+#links a.num7 { font-size: 26px; }
+#links a.num8 { font-size: 28px; }
+#links a.num9 { font-size: 30px; }
+#links a.numMax { font-size: 30px; font-weight: bold; }
+
+/*-------------------------------------------------------------------------*/
+
+#galeria ul#listaCarpetas {
+list-style-type: circle;
+}
+
+td.comentarios {
+text-align: center;
+}
+
+th {
+text-align: left;
+}
+
+
+#creditos p {
+text-align: center;
+font-style: italic;
+color: grey;
+font-size: 10px;
+}

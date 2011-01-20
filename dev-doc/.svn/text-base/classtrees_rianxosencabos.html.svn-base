@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						
+<!-- Start of Class Data -->
+<H2>
+	
+</H2>
+<h2>Root class admin</h2>
+<ul>
+<li><a href="rianxosencabos/admin.html">admin</a></li></ul>
+
+<h2>Root class basededatos</h2>
+<ul>
+<li><a href="rianxosencabos/basededatos.html">basededatos</a></li></ul>
+
+<h2>Root class blogs</h2>
+<ul>
+<li><a href="rianxosencabos/blogs.html">blogs</a></li></ul>
+
+<h2>Root class foro</h2>
+<ul>
+<li><a href="rianxosencabos/foro.html">foro</a></li></ul>
+
+<h2>Root class galeria</h2>
+<ul>
+<li><a href="rianxosencabos/galeria.html">galeria</a></li></ul>
+
+<h2>Root class links</h2>
+<ul>
+<li><a href="rianxosencabos/links.html">links</a></li></ul>
+
+<h2>Root class noticias</h2>
+<ul>
+<li><a href="rianxosencabos/noticias.html">noticias</a></li></ul>
+
+<h2>Root class usuarios</h2>
+<ul>
+<li><a href="rianxosencabos/usuarios.html">usuarios</a></li></ul>
+
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 26 Aug 2008 03:27:36 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</body>
+</html>

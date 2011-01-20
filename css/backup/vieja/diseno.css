@@ -1,0 +1,149 @@
+/*
+ * GENERAL Y MAIN
+ */
+body {
+	background-image: url('images/repetir_cabecera.png');
+	background-repeat: repeat-x;
+	font-family: sans-serif;
+    color: #333;
+}
+
+h1 {
+	background-image: url('images/cabecera.png');
+	background-color: white;
+}
+
+#secciones li {
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+#secciones li a {
+    text-decoration: none;
+    color: #b02b2c;
+}
+
+#secciones li a:hover {
+	color: black;
+/*	text-transform: capitalize;*/
+}
+
+#loginInfo {
+/*	color: white;*/
+}
+
+#loginInfo label {
+	font-size: 12px;
+	float: right;
+}
+
+#loginInfo label.recordar {
+	text-align: right;
+}
+
+
+#loginInfo a.rexistrarme {
+/*	color: white;*/
+	font-size: 12px;
+}
+
+#loginInfo li {
+	list-style-type: none;
+	text-align: right;
+	font-size: 12px;
+}
+
+#loginInfo li a {
+/*	color: white;*/
+}
+
+#extraDiv1 {
+	background-image: url('images/footnote.png');
+}
+
+
+/*
+ * NOTICIAS Y MEDIO
+ */
+#medio {
+	text-align: justify;
+}
+
+#medio #noticias h3.primera,#medio #noticias h3.segunda,#medio #noticias h3.tercera {
+    color: black;
+}
+
+#medio #noticias h3 a {
+	color: black;
+	text-decoration: none;
+}
+
+#medio #noticias h3 a:hover {
+	color: #b02b2c;
+}
+
+#medio #noticias p {
+	font-size: 13px;
+}
+
+#mensaje {
+	border: 1px dotted #b02b2c;
+	background-color: #da6667;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#noticia_comentando h3.segunda,#noticias h3.segunda {
+	font-size: 12px;
+}
+
+#noticia_comentando h3.tercera,#noticias h3.tercera {
+	font-size: 12px;
+}
+
+#noticias a.leermas,#noticias a.comentarios {
+	font-size: 13px;
+	font-weight: bold;
+	color: #b02b2c;
+}
+
+
+/*
+ * RESPUESTAS
+ */
+#noticias #respuestas h4.primera {
+	font-size: 14px;
+}
+
+#noticias #respuestas h4.primera a {
+/*    color: white;*/
+}
+
+
+#noticias #respuestas h4.segunda {
+	font-size: 12px;
+}
+
+#noticias #respuestas h4.tercera {
+	font-size: 12px;
+}
+
+#noticias #respuesta {
+	border: 1px dotted #b02b2c;
+	background-color: #da6667;
+	color: white;
+	text-align: justify;
+}
+
+
+/*
+ * LINKS
+ */
+#links {
+    list-style-type: upper-roman;
+}
+
+#links a {
+    color: #b02b2c;
+}

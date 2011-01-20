@@ -1,0 +1,328 @@
+/*
+ * GENERAL Y MAIN
+ */
+h1 {
+	width: 506px;
+	height: 175px;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+h1 a {
+    display: block;
+    width: 388px;
+    height: 73px;
+    position: absolute;
+    top: 63px;
+    left: 37px;
+}
+
+h1 span {
+	display: none;
+}
+
+#secciones {
+	position: absolute;
+	top: 92px;
+	left: 395px;
+}
+
+#secciones h2 {
+	display: none;
+}
+
+#secciones li {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+#loginInfo h2,#loginInfo span {
+	display: none;
+}
+
+/*#loginInfo input[type=text] {
+	position: absolute;
+	top: -20px;
+	left: 0px;
+}
+
+#loginInfo input[type=password] {
+	position: absolute;
+	top: -20px;
+	left: 114px;
+}
+
+#loginInfo input[type=checkbox] {
+	visibility: hidden;
+}
+
+#loginInfo a.rexistrarme {
+	position: absolute;
+	top: -7px;
+	left: 220px;
+}
+
+#loginInfo input.submit_login {
+	display: none;
+}
+*/
+/*#loginInfo input { float: left !important; display: block !important; }*/
+
+#loginInfo input[type=text] { margin-top: -30px; margin-right: -13px; }
+#loginInfo input[type=password] { margin-top: -13px; margin-right: -13px; }
+#loginInfo input.submit_login { margin-right: -13px; }
+#loginInfo a.rexistrarme { margin-top: 23px !important; margin-right: -13px;}
+#loginInfo input[type=checkbox] { display: none; }
+
+#loginInfo {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+#loginInfo ul {
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-right: -15px;
+}
+
+#loginInfo ul a {
+    padding-right: 2px;
+}
+
+#loginInfo input,#login p{
+	float: right;
+}
+
+#loginInfo a.rexistrarme {
+	margin-top: -12px;
+	clear: both;
+	float: right;
+    padding-right: 2px;
+}
+
+#loginInfo ul {
+	margin-top: -15px;
+}
+
+#loginInfo li {
+	float: right;
+	clear: both;
+}
+
+#loginInfo label.pass span,#loginInfo label.loginlabel span {
+    display: none;
+}
+
+#loginInfo label.recordar {
+	padding-top: 1px;
+    padding-bottom: 0px;
+    padding-right: 2px;
+}
+
+#loginInfo label.recordar span {
+    margin-right: 19px;
+}
+
+#loginInfo input.recordar {
+    margin-top: -13px;
+    margin-bottom: 13px;
+    margin-right: 0px;
+}
+
+
+#colaboran {
+	display: none;
+}
+
+#creditos h2 {
+	display: none;
+}
+
+#creditos {
+	clear: both;
+}
+
+
+/*
+ * MEDIO Y NOTICIAS
+ */
+#mensaje {
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px 10px 10px 10px;
+}
+
+#medio h2 {
+	display: none;
+}
+
+#noticias a.leermas {
+	padding-right: 5px;
+}
+
+#noticia_comentando h3.segunda,#noticias h3.segunda {
+	float: left;
+	margin-top: -20px;
+}
+
+
+#noticia_comentando h3.tercera,#noticias h3.tercera {
+	float: left;
+	margin-top: -20px;
+}
+
+#foro h3.tercera, #foro h3.segunda, #foro h3.cuarta {
+    float: left;
+    margin-top: -20px;
+}
+
+#noticia_comentando h3.admin, #noticias h3.admin {
+	float: right;
+	margin-top: -30px;
+}
+
+h3.subir, h3.bajar, h3.editar, h3.borrar {
+	width: 22px;
+	height: 22px;
+}
+
+h3.subir a, h3.bajar a, h3.editar a, h3.borrar a{
+	width: 22px;
+	height: 22px;
+    display: block;
+}
+
+
+h3.subir a span, h3.bajar a span, h3.editar a span, h3.borrar a span {
+	display: none;
+}
+
+#foro p, #noticia_comentando p, #noticias p {
+    clear: both;
+}
+
+#foro .respuesta p.origen {
+padding-top: 11px;
+}
+
+#medio {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#noticias a.comentarios, #noticias a.leermas {
+	float: right;
+}
+
+#noticias a.leermas {
+	margin-left: 10px;
+}
+
+/*
+ * RESPUESTAS
+ */
+#foro #respuestas h4.segunda, #noticias #respuestas h4.segunda {
+	float: left;
+	margin-top: -20px;
+}
+
+#foro #respuestas h4.tercera, #noticias #respuestas h4.tercera {
+	float: left;
+	margin-top: -20px;
+}
+
+#foro #respuestas p, #noticias #respuestas p {
+    clear:both;
+}
+
+.respuesta h4.tercera, .respuesta h4.tercera {
+    margin-bottom: 0px;
+}
+
+#foro #respuestas, #noticias #respuestas {
+	margin-top: 30px;
+	margin-left: 20px;
+/*	margin-bottom: 30px;*/
+}
+
+#foro .respuesta, #noticias .respuesta {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+
+#comentar_noticia label {
+	display: none;
+}
+
+#noticia_comentando p.ampliado {
+	margin-top: -10px;
+}
+
+
+/*
+ * BLOGS
+ */ 
+#blogs ul { padding-bottom: 20px !important; }
+
+#blogs ul li {
+float: left;
+}
+
+
+/*
+ * FORO
+ */
+/*--------------------------------------------------------------------- */
+#foro td {
+padding-right: 15px;
+}
+
+#foro th {
+padding-right: 15px;
+}
+
+#foro table {
+margin-bottom: 40px;
+}
+
+#galeria li.fichero {
+float: left;
+}
+
+#foro .respuesta {
+padding-top: 15px;
+}
+
+
+/*--------------------------------------------------------------------*/
+form p span {
+margin-left: -20px;
+}
+
+form p .mceEditor span {
+margin-left: 0px;
+}
+
+form input[type=submit] {
+margin-left: -20px;
+}
+
+#Registrar input[type=text],#Registrar input[type=password] {
+float: left;
+clear:both;
+
+}
+
+#Registrar input[type=submit] {
+margin-top: 20px;
+margin-left: -20px;
+}
+
+#Registrar p {
+margin-top: -15px;
+float: left;
+clear: both;
+}

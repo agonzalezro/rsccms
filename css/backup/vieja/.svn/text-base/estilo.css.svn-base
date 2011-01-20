@@ -1,0 +1,9 @@
+@import "maquetacion.css";
+@import "diseno.css";
+
+h3.admin {
+    font-size: 10px;
+    float: left;
+    margin-right: 5px;
+    text-decoration: underline;
+}

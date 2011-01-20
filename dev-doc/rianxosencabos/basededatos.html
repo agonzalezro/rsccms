@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class basededatos</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class basededatos</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">En esta clase incluiré todas las funciones necesarias para trabajar contra la base de datos:</p>
+<p class="description"><p><ul><li>inserts</li><li>deletes</li><li>consultas</li><li>...</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Alexandre González &lt;<a href="mailto:alex@rianxosencabos.com">alex@rianxosencabos.com</a>&gt;</li>
+				<li><span class="field">version:</span> 0.1</li>
+				<li><span class="field">copyright:</span> GNU/GPL v2.0 or later</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_libreria.php.html">/libreria.php</a> (line <span class="field">43</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																				<div class="method-definition">
+					static 						<span class="method-result">object</span>
+										<a href="#GetInstance" title="details" class="method-name">GetInstance</a>
+										()
+									</div>
+																																																																
+												<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#__destruct" title="details" class="method-name">__destruct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#borrarLink" title="details" class="method-name">borrarLink</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#borrarUsuario" title="details" class="method-name">borrarUsuario</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#borrar_noticia" title="details" class="method-name">borrar_noticia</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#cambiaLevel" title="details" class="method-name">cambiaLevel</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$nivel</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#cambiaLink" title="details" class="method-name">cambiaLink</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$href</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$clicks</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#cambiaPass" title="details" class="method-name">cambiaPass</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$pass</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#consulta" title="details" class="method-name">consulta</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sqlstring</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#crear_hilo" title="details" class="method-name">crear_hilo</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#crear_usuario" title="details" class="method-name">crear_usuario</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$login</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$pass</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mail</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#desportadaNoticia" title="details" class="method-name">desportadaNoticia</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#editarNoticia" title="details" class="method-name">editarNoticia</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto_ampliado</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$categoria</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getId" title="details" class="method-name">getId</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$usuario</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getPass" title="details" class="method-name">getPass</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#incrementar_clicks" title="details" class="method-name">incrementar_clicks</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$datos</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$tabla</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#insertar_comentario" title="details" class="method-name">insertar_comentario</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_noticia</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$hijo</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#insertar_noticia" title="details" class="method-name">insertar_noticia</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto_ampliado</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$categoria</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$portada</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#newLink" title="details" class="method-name">newLink</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$href</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#portadaNoticia" title="details" class="method-name">portadaNoticia</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">NULL</span>
+										<a href="#responder_hilo" title="details" class="method-name">responder_hilo</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_hilo</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$hijo</span> = <span class="var-default">NULL</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodGetInstance" id="GetInstance"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method GetInstance</span> (line <span class="line-number">85</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Para crear la clase debemos llamar a esta función para que no la duplique nunca</p>
+<p class="description"><p><div class="src-code"><ol><li><div class="src-line"><span class="src-var">$bd</span>=<span class="src-id"><a href="../rianxosencabos/basededatos.html">basededatos</a></span><span class="src-sym">::</span><a href="../rianxosencabos/basededatos.html#methodGetInstance">GetInstance</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">object</span>
+		<span class="method-name">
+			GetInstance
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="method__destruct" id="__destruct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Destructor __destruct</span> (line <span class="line-number">72</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Al destruir el objecto cerramos la conexión</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			__destruct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodborrarLink" id="borrarLink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">borrarLink</span> (line <span class="line-number">401</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Borrar un link</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			borrarLink
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID del link a borrar</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodborrarUsuario" id="borrarUsuario"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">borrarUsuario</span> (line <span class="line-number">387</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Borrar un usuario</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			borrarUsuario
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID del usuario a borrar</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodborrar_noticia" id="borrar_noticia"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">borrar_noticia</span> (line <span class="line-number">277</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Borrar una noticia pasada por ID</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			borrar_noticia
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID de la noticia</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcambiaLevel" id="cambiaLevel"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">cambiaLevel</span> (line <span class="line-number">416</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Cambia el nivel del usuario</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			cambiaLevel
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$nivel</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID del usuario a cambiar</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$nivel</span><span class="var-description">: El nuevo nivel para el usuario</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcambiaLink" id="cambiaLink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">cambiaLink</span> (line <span class="line-number">263</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función cambiamos los valores de un link</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			cambiaLink
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$href</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$clicks</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$nombre</span><span class="var-description">: El nombre del link</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$href</span><span class="var-description">: La dirección de destino</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$clicks</span><span class="var-description">: La cantidad de clicks acumulados</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID del link</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcambiaPass" id="cambiaPass"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">cambiaPass</span> (line <span class="line-number">168</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Función encargada de cambiar la contraseña del usuario</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			cambiaPass
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$pass</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$pass</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodconsulta" id="consulta"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">consulta</span> (line <span class="line-number">108</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Esto devolvería un array con los resultados para procesar con DB::fetchInto</p>
+<p class="description"><p><div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$bd</span>=<span class="src-id"><a href="../rianxosencabos/basededatos.html">basededatos</a></span><span class="src-sym">::</span><a href="../rianxosencabos/basededatos.html#methodGetInstance">GetInstance</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$resultado</span>=<span class="src-var">$bd</span><span class="src-sym">-&gt;</span><a href="../rianxosencabos/basededatos.html#methodconsulta">consulta</a><span class="src-sym">(</span><span class="src-str">&quot;SELECT&nbsp;*&nbsp;FROM&nbsp;tabla&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">while</span><span class="src-sym">(</span><span class="src-var">$resultado</span><span class="src-sym">-&gt;</span><span class="src-id">fetchInto</span><span class="src-sym">(</span><span class="src-var">$row</span><span class="src-sym">,</span><span class="src-id">DB_FETCH_MODE_ASSOC</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span>...<span class="src-sym">}</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			consulta
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sqlstring</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sqlstring</span><span class="var-description">: La consulta en formato SQL</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcrear_hilo" id="crear_hilo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">crear_hilo</span> (line <span class="line-number">206</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función creamos un nuevo hilo en el foro</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			crear_hilo
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id_usuario</span><span class="var-description">: El ID del usuario que postea</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$titulo</span><span class="var-description">: El título del hilo</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto</span><span class="var-description">: El texto del hilo</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcrear_usuario" id="crear_usuario"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">crear_usuario</span> (line <span class="line-number">341</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Crear usuarios con una consulta preparada, devuelve:</p>
+<p class="description"><p><ul><li>-1 si el usuario existe</li><li>-2 si el email es incorrecto</li><li>otro número si no hubo problema</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			crear_usuario
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$login</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$pass</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mail</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$login</span><span class="var-description">: Nombre que el usuario quiere</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$pass</span><span class="var-description">: Contraseña en MD5 del usuario</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$nombre</span><span class="var-description">: Nombre completo del usuario</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mail</span><span class="var-description">: El mail del usuario</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddesportadaNoticia" id="desportadaNoticia"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">desportadaNoticia</span> (line <span class="line-number">320</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			desportadaNoticia
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodeditarNoticia" id="editarNoticia"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">editarNoticia</span> (line <span class="line-number">245</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función editamos una noticia</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			editarNoticia
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto_ampliado</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$categoria</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$titulo</span><span class="var-description">: El título de la noticia</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto</span><span class="var-description">: El texto de la noticia</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto_ampliado</span><span class="var-description">: El texto ampliado de la noticia</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$categoria</span><span class="var-description">: El ID de la categoría</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID de la noticia</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetId" id="getId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getId</span> (line <span class="line-number">142</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Esta función solo se encarga de devolver el ID del usuario</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getId
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$usuario</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$usuario</span><span class="var-description">: El Login del usuario</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPass" id="getPass"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPass</span> (line <span class="line-number">155</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Esta función solo se encarga de devolver la contraseña del usuario</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getPass
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El Id del usuario</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodincrementar_clicks" id="incrementar_clicks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">incrementar_clicks</span> (line <span class="line-number">432</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Incrementa clicks del link o blog con id = al que se le pasa al array de entrada</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			incrementar_clicks
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$datos</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$tabla</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$datos</span><span class="var-description">: Un array para pasar a la consulta preparada. Incluy el identificador del link y los clicks incrementados.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tabla</span><span class="var-description">: La tabla a incrementar</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertar_comentario" id="insertar_comentario"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertar_comentario</span> (line <span class="line-number">127</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función insertamos un comentario en una NOTICIA con una consulta preparada</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			insertar_comentario
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_noticia</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$hijo</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id_noticia</span><span class="var-description">: El ID de la noticia a la que se responde</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$usuario</span><span class="var-description">: El ID del usuario que inserta la noticia</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$titulo</span><span class="var-description">: El titulo de la respuesta</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto</span><span class="var-description">: El texto de la respuesta</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$hijo</span><span class="var-description">: TODO: Para saber si el comentario es hijo de otro comentario</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertar_noticia" id="insertar_noticia"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertar_noticia</span> (line <span class="line-number">227</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función crearemos una nueva noticia</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			insertar_noticia
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto_ampliado</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$categoria</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$portada</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$titulo</span><span class="var-description">: El título de la noticia</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto</span><span class="var-description">: El texto de introducción de la noticia</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto_ampliado</span><span class="var-description">: El texto ampliado de la noticia</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$categoria</span><span class="var-description">: El ID de la categoría</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$usuario</span><span class="var-description">: El ID del usuario</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$portada</span><span class="var-description">: Si vale 1 está en portada, si no, no</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodnewLink" id="newLink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">newLink</span> (line <span class="line-number">373</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Nuevo link</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			newLink
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$nombre</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$href</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$nombre</span><span class="var-description">: Título para el link</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$href</span><span class="var-description">: Dirección de destino</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodportadaNoticia" id="portadaNoticia"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">portadaNoticia</span> (line <span class="line-number">306</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Subir a la portada una noticia. Para ello modificamos su atributo portada a 1 y le cambiamos su fecha_subida a la fecha_actual para que aparezca bien ordenada en la portada.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			portadaNoticia
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: El ID de la noticia a subir a portada</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodresponder_hilo" id="responder_hilo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">responder_hilo</span> (line <span class="line-number">189</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Con esta función insertamos una respuesta en un hilo del foro con una consulta preparada</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			responder_hilo
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id_hilo</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$usuario</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$titulo</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$texto</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$hijo</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id_hilo</span><span class="var-description">: El ID del hilo del foro al que se responde</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$usuario</span><span class="var-description">: El ID del usuario que inserta la respuesta</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$titulo</span><span class="var-description">: El título de la respuesta</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$texto</span><span class="var-description">: El texto de la respuesta</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$hijo</span><span class="var-description">: TODO: Con esto sabemos si es hijo de otra respuesta o no</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 26 Aug 2008 03:27:38 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>

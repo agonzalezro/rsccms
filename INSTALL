@@ -1,0 +1,9 @@
+REQUERIMENTS
+
+pear-db:
+sudo aptitude install pear
+sudo pear install db
+
+mysql and apache2 with rianxosencabos.sql imported
+
+GD to image gallery

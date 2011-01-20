@@ -1,0 +1,245 @@
+h1 {
+display: none;
+}
+
+h2 {
+display: none;
+}
+
+#secciones {
+float: left;
+margin-top: 165px;
+}
+
+#secciones ul li a {
+width: 23px;
+height: 75px;
+display: block;
+margin-bottom: 2px;
+}
+
+#medio {
+margin-top: 50px;
+margin-left: 63px;
+/*arriba derecha abajo izquierda*/
+padding: 155px 225px 120px 20px;
+width: 625px;
+}
+
+
+#noticias {
+/*arriba derecha abajo izquierda*/
+padding: 10px 20px 10px 20px;
+}
+
+#noticias .noticia {
+padding-bottom: 28px;
+}
+
+#noticias .comentarios, #noticias .leermas {
+float: right;
+}
+
+#noticias .leermas {
+margin-left: 10px;
+}
+
+#noticias h3.segunda, #noticias h3.tercera {
+margin-top: -10px;
+float: left;
+}
+
+#noticias p.total {
+margin-top: 35px;
+}
+
+#loginInfo {
+position: absolute;
+top: 190px;
+left: 730px;
+width: 190px;
+}
+
+#loginInfo input {
+margin-bottom: 5px;
+}
+
+#loginInfo a {
+margin-bottom: 15px;
+}
+
+#loginInfo input[type=text], #loginInfo input[type=password], #loginInfo input[type=submit], #loginInfo span, #loginInfo a.rexistrarme {
+float: left;
+clear:both;
+margin-left: 20px;
+}
+
+#loginInfo p .recordar, #loginInfo input[type=checkbox] {
+display: none;
+}
+
+#loginInfo input[type=submit] {
+margin-top: 10px;
+}
+
+#colaboran {
+position: absolute;
+left: 730px;
+width: 190px;
+top: 375px;
+}
+
+#creditos {
+margin-left: 79px;
+background-image: url('images/finCuerpo.png');
+background-repeat: no-repeat;
+width: 869px;
+height: 100px;
+margin-top: -119px;
+padding-top: 35px;
+padding-left: 180px;
+}
+
+#extraDiv1 {
+background-image: url('images/cabeceraCuerpo.png');
+background-repeat: no-repeat;
+width: 634px;
+height: 168px;
+display: block;
+position: absolute;
+top: 50px;
+left: 87px;
+}
+
+#blogs,#galeria,#foro,#links {
+margin-top: 25px;
+}
+
+#blogs ul li {
+float: left;
+margin-right: 10px;
+}
+
+
+/*h1 {
+position: absolute;
+display: block;
+width: 185px;
+height: 59px;
+position: absolute; top: 75px; left: 735px;
+}
+
+h1 a {
+position: absolute;
+display: block;
+background-image: url('images/logo.png');
+background-repeat: no-repeat;
+width: 185px;
+height: 59px;
+position: absolute; top: 0px; left: 0px;
+}
+
+h1 a span {
+display: none;
+}*/
+
+h1 {
+position: absolute;
+display: block;
+width: 43px;
+height: 476px;
+position: absolute; top: 200px; left: 940px;
+}
+
+h1 a {
+position: absolute;
+display: block;
+width: 43px;
+height: 476px;
+}
+
+h1 a span {
+display: none;
+}
+
+#extraDiv2 {
+width: 111px;
+height: 81px;
+display: block;
+position: absolute;
+top: 50px;
+left: 830px;
+}
+
+h3.subir span, h3.bajar span, h3.editar span, h3.borrar span { display: none; }
+
+h3.admin {
+float: right;
+margin-left: 5px;
+/*margin-top: 22px;*/
+margin-top: -33px;
+}
+
+h3.admin a {
+width: 22px;
+height: 22px;
+display: block;
+clear:left;
+}
+
+#preferencias_usuario input {
+clear: both;
+float: left;
+margin-bottom: 5px;
+}
+
+
+#preferencias_usuario span {
+position: relative;
+margin-bottom: 5px;
+margin-left: 200px;
+}
+
+#preferencias_usuario input{
+margin-left: -20px;
+margin-bottom: 10px;
+}
+
+#preferencias_usuario input[type=password] {
+width: 200px;
+}
+
+form p span {
+float: left;
+/*clear:both;
+color: red;*/
+}
+
+#medio input[type=text] {
+background-color: yellow;
+clear: both;
+float: left;
+margin-bottom: 5px;
+}
+
+#medio input[type=submit] {
+position: relative;
+margin-left: -20px;
+}
+
+#medio table.mceEditor input {
+margin-left: 20px;
+}
+
+#medio form span {
+margin-left: -20px;
+}
+
+#medio form table.mceEditor span {
+margin-left: 0px;
+}
+
+#medio form select {
+margin-left: 5px;
+}
+

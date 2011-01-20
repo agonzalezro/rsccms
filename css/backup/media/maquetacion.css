@@ -1,0 +1,183 @@
+h1 {
+margin-top: -8px;
+height: 85px;
+width: 310px;
+}
+
+h1 span {
+display: none;
+}
+
+#cuerpo {
+width: 1000px;
+padding-left: 50%;
+margin-left: -500px;
+}
+
+#medio {
+margin-top: 15px;
+}
+
+#medio #noticias {
+margin-top: -18px;
+}
+
+h3.admin {
+float: left;
+margin-left: 5px;
+margin-top: 22px;
+}
+
+h3.primera {
+float:left;
+}
+
+h3.admin a {
+width: 22px;
+height: 22px;
+display: block;
+clear:left;
+}
+
+h3.subir span, h3.bajar span, h3.editar span, h3.borrar span { display: none; }
+
+h3.segunda {
+margin-top: -10px;
+float: left;
+clear: both;
+}
+
+h3.tercera{
+margin-top: -10px;
+float: left;
+}
+
+#secciones, #loginInfo, #colaboran {
+float: left;
+clear: left;
+width: 205px;
+}
+
+#secciones ul, #loginInfo ul, #colaboran ul {
+list-style-type: none;
+margin-left: -40px;
+}
+
+#secciones li a, #loginInfo li a, #colaboran li a{
+margin-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 20px;
+width: 175px;
+display: block;
+}
+
+#secciones li, #loginInfo li, #colaboran li {
+margin-bottom: -10px;
+}
+
+#secciones h2, #loginInfo h2, #colaboran h2 {
+margin-bottom:-10px;
+}
+
+#secciones h2, #loginInfo h2, #colaboran h2 {
+margin-left: 10px;
+}
+
+#loginInfo #loginName {
+display: none;
+}
+
+#loginInfo input[type=text],#loginInfo input[type=password] {
+clear: both;
+float: left;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+
+#preferencias_usuario input {
+clear: both;
+float: left;
+margin-bottom: 5px;
+}
+
+#preferencias_usuario span {
+position: relative;
+margin-bottom: 5px;
+margin-left: 200px;
+}
+
+#preferencias_usuario input{
+margin-left: -20px;
+margin-bottom: 10px;
+}
+#preferencias_usuario input[type=password] {
+width: 200px;
+}
+
+#medio input[type=text] {
+clear: both;
+float: left;
+margin-bottom: 5px;
+}
+
+#medio input[type=submit] {
+margin-left: -20px;
+}
+
+#medio table.mceEditor input {
+margin-left: 20px;
+}
+
+#medio form span {
+margin-left: -20px;
+}
+
+#medio form table.mceEditor span {
+margin-left: 0px;
+}
+
+#medio form select {
+margin-left: 5px;
+}
+
+#medio {
+background-color: yellow;
+float: right;
+width: 745px;
+padding-left: 20px;
+padding-right: 30px;
+}
+
+p { clear:both; }
+
+#medio h2 {
+display:none;
+}
+
+.noticia {
+margin-bottom: 30px;
+}
+
+/* --------------------------------------------------------------------------- */
+#blogs ul li {
+float: left;
+margin-right: 10px;
+}
+
+/*--------------------------------------------------------------------- */
+td {
+padding-right: 15px;
+}
+
+th {
+padding-right: 15px;
+}
+
+#creditos {
+clear: both;
+}
+
+#creditos h2 {
+display: none;
+}
